@@ -83,7 +83,7 @@ function LandingPage() {
         <div className="Section2b">
           <div className="card2 card2a">
             <div classname="card2-top-div">
-              <img scr={Hero5} />
+              <img src={x1} />
             </div>
             <div>
               <h1>Sign Up</h1>
@@ -96,7 +96,7 @@ function LandingPage() {
           </div>
           <div className="card2 card2b">
             <div classname="card2-top-div">
-              <img scr={x3} />
+              <img src={x2} />
             </div>
             <div>
               <h1>Sign Up</h1>
@@ -108,7 +108,9 @@ function LandingPage() {
             </div>
           </div>
           <div className="card2 card2c">
-            <div classname="card2-top-div"></div>
+            <div classname="card2-top-div">
+              <img src={x3} />
+            </div>
             <div>
               <h1>Sign Up</h1>
               <p>
@@ -119,6 +121,10 @@ function LandingPage() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="Section#">
+        <h1></h1>
       </div>
     </div>
   );

@@ -119,14 +119,18 @@ body {
   flex-wrap: wrap;
 }
 .card2 {
+  height: 536px;
   width: 357px;
   flex-basis: calc(33.33% - 10px); /* 33.33% minus any additional spacing */
   margin-right: 10px; /* Additional spacing between items */
   margin-bottom: 10px;
 }
 .card2 div:nth-child(1) {
-  height: 295px;
+  height: 60%;
   border-radius: 8px 8px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 .card2a div:nth-child(1) {
   background: linear-gradient(90deg, #00416a 0%, #e4e5e6 100%);
@@ -137,15 +141,17 @@ body {
 .card2c div:nth-child(1) {
   background: linear-gradient(90deg, #bbd2c5 0%, #536976 100%);
 }
-.card2-top-div img {
+.card2 div:nth-child(1) img {
+  width: 220px;
+  height: 286px;
 }
 .card2 div:nth-child(2) {
   display: flex;
   flex-direction: column;
   padding: 16px 16px;
   gap: 17px;
-
-  height: 242px;
+  z-index: 2;
+  height: 40%;
   background: #ffffff;
   border: 1px solid #f1f1f1;
 }
