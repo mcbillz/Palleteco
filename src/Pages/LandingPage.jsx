@@ -81,9 +81,9 @@ function LandingPage() {
           </p>
         </div>
         <div className="Section2b">
-          <div className="card2">
+          <div className="card2 card2a">
             <div classname="card2-top-div">
-              <img scr={x2} />
+              <img scr={Hero5} />
             </div>
             <div>
               <h1>Sign Up</h1>
@@ -94,8 +94,30 @@ function LandingPage() {
               <GreenBtn text="Sign up" />
             </div>
           </div>
-          <div className="card2"></div>
-          <div className="card2"></div>
+          <div className="card2 card2b">
+            <div classname="card2-top-div">
+              <img scr={x3} />
+            </div>
+            <div>
+              <h1>Sign Up</h1>
+              <p>
+                First, you'll need to sign up for an account on our website.
+                This is a quick and easy process that only takes a few minutes.
+              </p>
+              <GreenBtn text="Browse" />
+            </div>
+          </div>
+          <div className="card2 card2c">
+            <div classname="card2-top-div"></div>
+            <div>
+              <h1>Sign Up</h1>
+              <p>
+                First, you'll need to sign up for an account on our website.
+                This is a quick and easy process that only takes a few minutes.
+              </p>
+              <GreenBtn text="Start Buying" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
