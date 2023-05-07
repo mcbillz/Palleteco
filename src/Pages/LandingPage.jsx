@@ -7,6 +7,9 @@ import Hero2 from "../Images/hero2.jpeg";
 import Hero3 from "../Images/hero3.jpeg";
 import Hero4 from "../Images/hero4.jpeg";
 import Hero5 from "../Images/hero5.png";
+import x1 from "../Images/x1.png";
+import x2 from "../Images/x2.png";
+import x3 from "../Images/x3.png";
 import Card1 from "../Components/Card1";
 import Card1list from "../card1list";
 
@@ -66,6 +69,34 @@ function LandingPage() {
           </p>
         </div>
         <div className="Section1b">{Card1list.map(createCard1)}</div>
+      </div>
+
+      <div className="Section2">
+        <div className="Section1a">
+          <h1>How it works</h1>
+          <p>
+            By using our marketplace, you can save time, access a wide selection
+            of pallets, and enjoy a <br />
+            reliable and efficient way to buy and sell pallets.
+          </p>
+        </div>
+        <div className="Section2b">
+          <div className="card2">
+            <div classname="card2-top-div">
+              <img scr={x2} />
+            </div>
+            <div>
+              <h1>Sign Up</h1>
+              <p>
+                First, you'll need to sign up for an account on our website.
+                This is a quick and easy process that only takes a few minutes.
+              </p>
+              <GreenBtn text="Sign up" />
+            </div>
+          </div>
+          <div className="card2"></div>
+          <div className="card2"></div>
+        </div>
       </div>
     </div>
   );
