@@ -1,0 +1,22 @@
+.boarder-green-btn {
+  gap: 10px;
+  width: 160px;
+  height: 48px;
+  border-radius: 4px;
+  cursor: pointer;
+  background: none;
+  border: 1px solid #242322;
+  padding: 0px 10px;
+}
+
+.green-btn {
+  gap: 10px;
+  width: 160px;
+  height: 48px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0px 10px;
+  color: #ffffff;
+  background: #0f3703;
+}

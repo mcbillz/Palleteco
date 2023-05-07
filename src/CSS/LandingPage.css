@@ -1,0 +1,113 @@
+body {
+  font-family: "Mulish", sans-serif;
+  background-color: White;
+}
+.Hero-section {
+  height: 700px;
+  display: flex;
+  padding: 70px 150px 50px;
+  background: #fbfffa;
+}
+.Hero-section-a {
+  width: 60%;
+  display: inline-block;
+}
+.Hero-section-b {
+  width: 40%;
+  display: inline-block;
+}
+.Hero-section-h1 h1 {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 150%;
+  color: #242322;
+}
+.Hero-section-h1 h1 span {
+  color: #04b45c;
+}
+.Hero-section-p p {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(36, 35, 34, 0.7);
+}
+
+.Hero-section-btns a:nth-child(2) {
+  margin-left: 25px;
+}
+
+.Hero-section-a > p {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  text-decoration-line: underline;
+  color: rgba(36, 35, 34, 0.7);
+  position: absolute;
+  top: 760px;
+}
+
+.Hero-section-imgs img {
+  box-sizing: border-box;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 700px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+left: 72px;
+
+.Hero-section-imgs img:nth-child(1) {
+  left: 0;
+}
+.Hero-section-imgs img:nth-child(2) {
+  left: 174px;
+}
+.Hero-section-imgs img:nth-child(3) {
+  left: 198px;
+}
+.Hero-section-imgs img:nth-child(4) {
+  left: 222px;
+}
+.Hero-section-b img {
+  height: 700px;
+}
+
+.Section1 {
+  /* height: 700px; */
+  padding: 30px 100px;
+  background-color: White;
+}
+
+.Section1a {
+  text-align: center;
+}
+.Section1a h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #242322;
+}
+.Section1a p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(36, 35, 34, 0.7);
+}
+.Section1b {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Section1b div {
+  flex-basis: calc(33.33% - 10px); /* 33.33% minus any additional spacing */
+  margin-right: 10px; /* Additional spacing between items */
+  margin-bottom: 10px;
+}
