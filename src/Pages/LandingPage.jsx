@@ -12,6 +12,7 @@ import x2 from "../Images/x2.png";
 import x3 from "../Images/x3.png";
 import Card1 from "../Components/Card1";
 import Card1list from "../card1list";
+import ListingCard from "../Components/ListingCard";
 
 function createCard1(card) {
   return <Card1 img={card.img} head={card.head} text={card.text} />;
@@ -123,8 +124,11 @@ function LandingPage() {
         </div>
       </div>
 
-      <div className="Section#">
-        <h1></h1>
+      <div className="Section3">
+        <h1>Discover listings around you</h1>
+        <div>
+          <ListingCard />
+        </div>
       </div>
     </div>
   );

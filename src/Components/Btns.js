@@ -8,4 +8,9 @@ function BoarderGreenBtn(props) {
 function GreenBtn(props) {
   return <button className="green-btn">{props.text}</button>;
 }
-export { BoarderGreenBtn, GreenBtn };
+
+function BoarderBrownBtn(props) {
+  return <button className="boarder-brown-btn">{props.text}</button>;
+}
+
+export { BoarderGreenBtn, GreenBtn, BoarderBrownBtn };

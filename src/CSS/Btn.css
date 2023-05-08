@@ -20,3 +20,14 @@
   color: #ffffff;
   background: #0f3703;
 }
+.boarder-brown-btn {
+  gap: 10px;
+  width: 160px;
+  height: 48px;
+  border-radius: 4px;
+  cursor: pointer;
+  background: none;
+  color: #c9a26b;
+  border: 1px solid #c9a26b;
+  padding: 0px 10px;
+}

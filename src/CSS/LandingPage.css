@@ -171,3 +171,14 @@ body {
   line-height: 150%;
   color: rgba(36, 35, 34, 0.7);
 }
+.Section3 {
+  padding: 56px 100px;
+}
+.Section3 h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  text-align: left;
+  color: #242322;
+}
