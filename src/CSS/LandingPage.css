@@ -191,3 +191,12 @@ body {
   margin-right: 10px; /* Additional spacing between items */
   margin-bottom: 10px;
 }
+/* @media screen and (max-width: 1500px) {
+  .Hero-section {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0px 50px;
+    background: #fbfffa;
+  }
+} */
