@@ -52,7 +52,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 150%;
+  /* line-height: 150%; */
   color: rgba(36, 35, 34, 0.5);
 }
 .ListingCard hr {
@@ -86,7 +86,7 @@
   width: 230px;
 }
 .ListingCardDiv2 div:nth-child(2) p {
-  width: 150px;
+  width: 100px;
 }
 .ListingCardDiv3 {
   display: flex;
@@ -98,4 +98,7 @@
 .ListingCardDiv3 span {
   font-weight: 800;
   color: #242322;
+}
+.noteP {
+  width: 90%;
 }

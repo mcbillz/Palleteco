@@ -26,7 +26,7 @@ function ListingCard(props) {
       </div>
       <hr />
       <p>Additional note</p>
-      <p>{props.note}</p>
+      <p className="noteP">{props.note}</p>
       <div className="ListingCardDiv3">
         <div>
           <h1>
