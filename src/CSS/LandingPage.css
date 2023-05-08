@@ -182,3 +182,12 @@ body {
   text-align: left;
   color: #242322;
 }
+.listdiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+.listdiv div {
+  flex-basis: calc(33.33% - 30px); /* 33.33% minus any additional spacing */
+  margin-right: 10px; /* Additional spacing between items */
+  margin-bottom: 10px;
+}

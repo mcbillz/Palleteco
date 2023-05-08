@@ -33,3 +33,69 @@
   line-height: 150%;
   color: rgba(36, 35, 34, 0.7);
 }
+
+.ListingCard {
+  width: 380px;
+  background: #ffffff;
+  box-shadow: 0px 40px 80px rgba(224, 224, 224, 0.25);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 10px;
+}
+.ListingCard img {
+  width: 390px;
+  height: 172px;
+  align-self: center;
+}
+.ListingCard p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(36, 35, 34, 0.5);
+}
+.ListingCard hr {
+  width: 95%;
+  border: 0.5px solid #f1f1f1;
+}
+.ListingCard h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 50%;
+  color: #242322;
+}
+.ListingCardDiv1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ListingCardDiv1 h1:nth-child(2) {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 50%;
+  color: #04b45c;
+}
+.ListingCardDiv2 {
+  display: flex;
+  justify-content: space-between;
+}
+.ListingCardDiv2 div:first-child p {
+  width: 230px;
+}
+.ListingCardDiv2 div:nth-child(2) p {
+  width: 150px;
+}
+.ListingCardDiv3 {
+  display: flex;
+  justify-content: space-between;
+}
+.ListingCardDiv3 h1 {
+  font-weight: 400;
+}
+.ListingCardDiv3 span {
+  font-weight: 800;
+  color: #242322;
+}

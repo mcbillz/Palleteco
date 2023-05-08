@@ -6,33 +6,33 @@ function ListingCard(props) {
   return (
     <div className="ListingCard">
       <img src={props.img} />
-      <div>
+      <div className="ListingCardDiv1">
         <h1>{props.head}</h1>
         <div>
           <p>Price</p>
-          <h1>${props.head}</h1>
+          <h1>${props.price}</h1>
         </div>
       </div>
       <hr />
-      <div>
+      <div className="ListingCardDiv2">
         <div>
           <p>Location: {props.location}</p>
-          <p>Quantity Available: {props.quantity}</p>
+          <p>Quantity Available: {props.quantity}pcs</p>
         </div>
         <div>
-          <p>Material:{props.material}</p>
-          <p>Condition:{props.condition}</p>
+          <p>Material: {props.material}</p>
+          <p>Condition: {props.condition}</p>
         </div>
       </div>
       <hr />
       <p>Additional note</p>
       <p>{props.note}</p>
-      <div>
+      <div className="ListingCardDiv3">
         <div>
           <h1>
             <span>{props.rating}</span>/5
           </h1>
-          <p>⭐⭐⭐⭐</p>
+          <p>{props.star}</p>
         </div>
         <div>
           <BoarderBrownBtn text="View Listing" />

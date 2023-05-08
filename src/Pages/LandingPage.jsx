@@ -10,6 +10,9 @@ import Hero5 from "../Images/hero5.png";
 import x1 from "../Images/x1.png";
 import x2 from "../Images/x2.png";
 import x3 from "../Images/x3.png";
+import pallet1 from "../Images/pallet1.png";
+import pallet2 from "../Images/pallet2.png";
+import pallet3 from "../Images/pallet3.png";
 import Card1 from "../Components/Card1";
 import Card1list from "../card1list";
 import ListingCard from "../Components/ListingCard";
@@ -126,8 +129,43 @@ function LandingPage() {
 
       <div className="Section3">
         <h1>Discover listings around you</h1>
-        <div>
-          <ListingCard />
+        <div className="listdiv">
+          <ListingCard
+            img={pallet1}
+            head="Brand new wood pallets"
+            price="12.00"
+            location="Sweden"
+            material="Wood"
+            quantity="100"
+            condition="New"
+            note="These pallets are made of high-quality wood and have never been used. They are ideal for transporting goods or storing items. Please contact us if you have any questions or would like to place an order."
+            rating="4.9"
+            star="⭐⭐⭐⭐"
+          />
+          <ListingCard
+            img={pallet2}
+            head="Brand new wood pallets"
+            price="12.00"
+            location="Sweden"
+            material="Wood"
+            quantity="100"
+            condition="New"
+            note="These pallets are made of high-quality wood and have never been used. They are ideal for transporting goods or storing items. Please contact us if you have any questions or would like to place an order."
+            rating="4.9"
+            star="⭐⭐⭐⭐"
+          />
+          <ListingCard
+            img={pallet3}
+            head="Brand new wood pallets"
+            price="12.00"
+            location="Sweden"
+            material="Wood"
+            quantity="100"
+            condition="New"
+            note="These pallets are made of high-quality wood and have never been used. They are ideal for transporting goods or storing items. Please contact us if you have any questions or would like to place an order."
+            rating="4.9"
+            star="⭐⭐⭐⭐"
+          />
         </div>
       </div>
     </div>
