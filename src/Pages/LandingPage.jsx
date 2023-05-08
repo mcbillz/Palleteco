@@ -16,6 +16,7 @@ import pallet3 from "../Images/pallet3.png";
 import Card1 from "../Components/Card1";
 import Card1list from "../card1list";
 import ListingCard from "../Components/ListingCard";
+import Footer from "../Components/Footer";
 
 function createCard1(card) {
   return <Card1 img={card.img} head={card.head} text={card.text} />;
@@ -168,6 +169,7 @@ function LandingPage() {
           />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
