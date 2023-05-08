@@ -2,10 +2,7 @@ import React from "react";
 import "../CSS/LandingPage.css";
 import Navbar from "../Components/Navbar";
 import { BoarderGreenBtn, GreenBtn } from "../Components/Btns";
-import Hero1 from "../Images/hero1.jpeg";
-import Hero2 from "../Images/hero2.jpeg";
-import Hero3 from "../Images/hero3.jpeg";
-import Hero4 from "../Images/hero4.jpeg";
+import Heroo from "../Images/heroo.png";
 import Hero5 from "../Images/hero5.png";
 import x1 from "../Images/x1.png";
 import x2 from "../Images/x2.png";
@@ -51,12 +48,11 @@ function LandingPage() {
             </a>
           </div>
           <div className="Hero-section-imgs">
-            <img src={Hero4} />
-            <img src={Hero3} />
-            <img src={Hero2} />
-            <img src={Hero1} />
+            <img src={Heroo} />
           </div>
-          <p>Trusted by 5,000+ Customers</p>
+          <div className="trusted">
+            <p>Trusted by 5,000+ Customers</p>
+          </div>
         </div>
         <div className="Hero-section-b">
           <div>
@@ -76,7 +72,7 @@ function LandingPage() {
         <div className="Section1b">{Card1list.map(createCard1)}</div>
       </div>
 
-      <div className="Section2">
+      {/* <div className="Section2">
         <div className="Section1a">
           <h1>How it works</h1>
           <p>
@@ -126,9 +122,9 @@ function LandingPage() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="Section3">
+      {/* <div className="Section3">
         <h1>Discover listings around you</h1>
         <div className="listdiv">
           <ListingCard
@@ -168,8 +164,8 @@ function LandingPage() {
             star="⭐⭐⭐⭐"
           />
         </div>
-      </div>
-      <Footer />
+      </div> */}
+      {/* <Footer /> */}
     </div>
   );
 }
