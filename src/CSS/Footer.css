@@ -80,6 +80,13 @@ hr {
     height: 286px;
     margin: 30px auto 80px;
   }
+  .footer-div-1 p {
+    padding: 0 20px;
+    font-size: 14px;
+  }
+  .footer-div-1 h1 {
+    font-size: 18px;
+  }
   .footer-list {
     display: grid;
     grid-template-columns: 1fr;
@@ -95,17 +102,19 @@ hr {
   }
   .footer-list p {
     line-height: 150%;
+    font-size: 14px;
   }
   .footer-list div h5 {
     margin: 0;
-    font-size: 20px;
+    font-size: 17px;
   }
   .footer-list-a img {
     height: 70px;
     margin: 0;
   }
   .footer-div-1 button {
-    width: 227px;
+    width: 200px;
+    border-style: none;
   }
   .footer-div-3 p {
     font-size: 12px;
