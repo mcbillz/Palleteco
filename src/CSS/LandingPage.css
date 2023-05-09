@@ -287,7 +287,7 @@ body {
   }
   .Section1b div {
     flex-basis: calc(0); /* 33.33% minus any additional spacing */
-    margin-right: 10px; /* Additional spacing between items */
+    margin-right: 0px; /* Additional spacing between items */
     margin-bottom: 10px;
   }
   .Section2 {
