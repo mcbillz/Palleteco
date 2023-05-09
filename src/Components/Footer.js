@@ -9,8 +9,8 @@ function Footer() {
       <div className="footer-div-1">
         <h1>Got Questions for us?</h1>
         <p>
-          "I've been using this marketplace for several months <br /> now and
-          it's been a game-changer for my busi
+          "I've been using this marketplace for several months now and it's been
+          a game-changer for my business"
         </p>
         <button>Contact us</button>
       </div>
@@ -57,7 +57,7 @@ function Footer() {
       </div>
       <hr />
       <div className="footer-div-3">
-        <p>&copy;{year} -Palleteco</p>
+        <p>&copy;{year} -Palletecos</p>
         <p>PrivacyPolicy - Terms & Conditions</p>
       </div>
     </div>
