@@ -72,13 +72,13 @@ function LandingPage() {
         <div className="Section1b">{Card1list.map(createCard1)}</div>
       </div>
 
-      {/* <div className="Section2">
+      <div className="Section2">
         <div className="Section1a">
           <h1>How it works</h1>
           <p>
             By using our marketplace, you can save time, access a wide selection
-            of pallets, and enjoy a <br />
-            reliable and efficient way to buy and sell pallets.
+            of pallets, and enjoy a reliable and efficient way to buy and sell
+            pallets.
           </p>
         </div>
         <div className="Section2b">
@@ -122,7 +122,7 @@ function LandingPage() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       {/* <div className="Section3">
         <h1>Discover listings around you</h1>

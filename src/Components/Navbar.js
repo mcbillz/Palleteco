@@ -12,7 +12,8 @@ function Navbar() {
     dropdownMenuStyle = {
       position: "absolute",
       top: "80px",
-      width: "100%",
+      right: "0",
+      left: "0",
       backgroundColor: "#fff",
       boxShadow: "0px 40px 80px rgba(170, 170, 170, 0.25)",
       padding: "20px",
