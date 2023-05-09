@@ -353,4 +353,23 @@ body {
     line-height: 150%;
     color: rgba(36, 35, 34, 0.7);
   }
+  .Section3 {
+    padding: 30px 20px;
+  }
+  .Section3 h1 {
+    font-size: 18px;
+  }
+  .listdiv {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .listdiv div {
+    flex-basis: calc(0); /* 33.33% minus any additional spacing */
+    margin-right: 0px; /* Additional spacing between items */
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
 }

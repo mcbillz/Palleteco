@@ -124,7 +124,7 @@ function LandingPage() {
         </div>
       </div>
 
-      {/* <div className="Section3">
+      <div className="Section3">
         <h1>Discover listings around you</h1>
         <div className="listdiv">
           <ListingCard
@@ -164,7 +164,7 @@ function LandingPage() {
             star="⭐⭐⭐⭐"
           />
         </div>
-      </div> */}
+      </div>
       {/* <Footer /> */}
     </div>
   );
