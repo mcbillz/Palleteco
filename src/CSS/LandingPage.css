@@ -104,6 +104,7 @@ body {
 .Section1b {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .Section1b div {
   flex-basis: calc(33.33% - 10px); /* 33.33% minus any additional spacing */
@@ -185,82 +186,14 @@ body {
 .listdiv {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .listdiv div {
   flex-basis: calc(33.33% - 30px); /* 33.33% minus any additional spacing */
   margin-right: 10px; /* Additional spacing between items */
   margin-bottom: 10px;
 }
-@media screen and (max-width: 1500px) {
-  .Hero-section {
-    height: 1000px;
-    display: flex;
-    flex-direction: column;
-    padding: 0px 30px 50px;
-    background: #fbfffa;
-    justify-content: center;
-    align-items: center;
-  }
-  .Hero-section-a {
-    width: 100%;
-    display: block;
-  }
-  .Hero-section-h1 h1 {
-    font-size: 24px;
-    text-align: center;
-  }
-  .Hero-section-p p {
-    font-size: 16px;
-    text-align: center;
-  }
-  .Hero-section-btns {
-    display: flex;
-    justify-content: center;
-  }
-  .Hero-section-btns a {
-    margin: 0px 10px;
-  }
-  .Hero-section-b {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-  }
-  .Hero-section-b img {
-    height: 400px;
-  }
-
-  .Hero-section-imgs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 1040px;
-    left: 0;
-    right: 0;
-    width: fit-content;
-    margin: 0 auto;
-  }
-
-  .Hero-section-imgs img {
-    height: 48px;
-  }
-  .trusted {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 1080px;
-    left: 0;
-    right: 0;
-    width: fit-content;
-    margin: 0 auto;
-  }
-  .trusted p {
-    font-size: 14px;
-    text-align: center;
-  }
-
+@media screen and (max-width: 750px) {
   .Section1 {
     padding: 20px;
     background-color: White;
@@ -368,6 +301,133 @@ body {
   }
   .listdiv div {
     flex-basis: calc(0); /* 33.33% minus any additional spacing */
+    margin-right: 0px; /* Additional spacing between items */
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .Hero-section {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px 50px;
+    background: #fbfffa;
+    justify-content: center;
+    align-items: center;
+  }
+  .Hero-section-a {
+    width: 100%;
+    display: block;
+  }
+  .Hero-section-h1 h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .Hero-section-p p {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 80px;
+  }
+  .Hero-section-btns {
+    display: flex;
+    justify-content: center;
+  }
+  .Hero-section-btns a {
+    margin: 0px 10px;
+  }
+  .Hero-section-b {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .Hero-section-b img {
+    height: 500px;
+  }
+
+  .Hero-section-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1040px;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .Hero-section-imgs img {
+    height: 48px;
+  }
+  .trusted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1080px;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .trusted p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .Section1b {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .Section1b div {
+    flex-basis: calc(50%); /* 33.33% minus any additional spacing */
+    margin-right: 0px; /* Additional spacing between items */
+    margin-bottom: 0px;
+  }
+
+  .Section2 {
+    padding: 30px 20px;
+    background-color: #fcfbfb;
+  }
+  .Section2b {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 70px 30px;
+  }
+  .card2 {
+    flex-basis: calc(40%); /* 33.33% minus any additional spacing */
+    margin-right: 0px; /* Additional spacing between items */
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .card2 div:nth-child(1) img {
+    width: 220px;
+    height: 286px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .Section3 {
+    padding: 30px 20px;
+  }
+  .Section3 h1 {
+    font-size: 18px;
+  }
+  .listdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px 70px;
+  }
+  .listdiv div {
+    flex-basis: calc(40%); /* 33.33% minus any additional spacing */
     margin-right: 0px; /* Additional spacing between items */
     margin-bottom: 0px;
     margin-top: 0px;

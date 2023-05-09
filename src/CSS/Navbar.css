@@ -85,7 +85,7 @@ div a:nth-child(2) {
   border-radius: 3px;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1340px) {
   .logo {
     margin: 0;
   }

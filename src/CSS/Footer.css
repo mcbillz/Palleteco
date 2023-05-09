@@ -73,20 +73,7 @@
 hr {
   border: 1px solid #ecedef;
 }
-@media screen and (max-width: 1500px) {
-  .footer-div-1 {
-    width: 100%;
-    max-width: 955px;
-    height: 286px;
-    margin: 30px auto 80px;
-  }
-  .footer-div-1 p {
-    padding: 0 20px;
-    font-size: 14px;
-  }
-  .footer-div-1 h1 {
-    font-size: 18px;
-  }
+@media screen and (max-width: 750px) {
   .footer-list {
     display: grid;
     grid-template-columns: 1fr;
@@ -118,5 +105,20 @@ hr {
   }
   .footer-div-3 p {
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footer-div-1 {
+    width: 100%;
+    max-width: 955px;
+    height: 286px;
+    margin: 30px auto 80px;
+  }
+  .footer-div-1 p {
+    padding: 0 20px;
+    font-size: 14px;
+  }
+  .footer-div-1 h1 {
+    font-size: 18px;
   }
 }
