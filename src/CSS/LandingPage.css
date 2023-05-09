@@ -299,6 +299,7 @@ body {
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
   }
   .card2 {
     flex-basis: calc(0); /* 33.33% minus any additional spacing */
