@@ -5,7 +5,8 @@
   align-items: flex-start;
   padding: 16px;
   gap: 16px;
-  width: 384.33px;
+  width: fit-content;
+  max-width: 384.33px;
   height: 219px;
   background: #ffffff;
   box-shadow: 0px 40px 80px rgba(140, 140, 140, 0.05);
@@ -26,7 +27,7 @@
   color: #242322;
 }
 .card1 p {
-  width: 377px;
+  width: fit-content;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
