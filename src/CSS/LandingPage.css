@@ -271,7 +271,8 @@ body {
   }
   .Section1a p {
     font-size: 16px;
-    width: 400px;
+    width: fit-content;
+    max-width: 500px;
   }
   .Section1b {
     display: flex;
