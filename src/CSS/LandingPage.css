@@ -193,119 +193,7 @@ body {
   margin-right: 10px; /* Additional spacing between items */
   margin-bottom: 10px;
 }
-@media screen and (max-width: 750px) {
-  .Section1 {
-    padding: 20px;
-    background-color: White;
-  }
 
-  .Section1a {
-    text-align: center;
-    padding: 32px;
-  }
-  .Section1a h1 {
-    font-size: 18px;
-  }
-  .Section1a p {
-    font-size: 16px;
-    width: fit-content;
-    max-width: 500px;
-  }
-  .Section1b {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .Section1b div {
-    flex-basis: calc(0); /* 33.33% minus any additional spacing */
-    margin-right: 0px; /* Additional spacing between items */
-    margin-bottom: 10px;
-  }
-  .Section2 {
-    padding: 30px 20px;
-    background-color: #fcfbfb;
-  }
-  .Section2b {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-  }
-  .card2 {
-    flex-basis: calc(0); /* 33.33% minus any additional spacing */
-    margin-right: 0px; /* Additional spacing between items */
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
-  .card2 div:first-child {
-    height: 60%;
-    border-radius: 8px 8px 0px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-  }
-  .card2a div:nth-child(1) {
-    background: linear-gradient(90deg, #00416a 0%, #e4e5e6 100%);
-  }
-  .card2b div:nth-child(1) {
-    background: linear-gradient(90deg, #649173 0%, #dbd5a4 100%);
-  }
-  .card2c div:nth-child(1) {
-    background: linear-gradient(90deg, #bbd2c5 0%, #536976 100%);
-  }
-  .card2 div:nth-child(1) img {
-    width: 220px;
-    height: 286px;
-  }
-  .card2 div:nth-child(2) {
-    display: flex;
-    flex-direction: column;
-    padding: 16px 16px;
-    gap: 17px;
-    z-index: 2;
-    height: 40%;
-    background: #ffffff;
-    border: 1px solid #f1f1f1;
-  }
-  .card2 div:nth-child(2) h1 {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-    color: #242322;
-  }
-  .card2 div:nth-child(2) p {
-    width: 301px;
-    height: 63px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 150%;
-    color: rgba(36, 35, 34, 0.7);
-  }
-  .Section3 {
-    padding: 30px 20px;
-  }
-  .Section3 h1 {
-    font-size: 18px;
-  }
-  .listdiv {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-  .listdiv div {
-    flex-basis: calc(0); /* 33.33% minus any additional spacing */
-    margin-right: 0px; /* Additional spacing between items */
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
-}
 @media screen and (max-width: 1250px) {
   .Hero-section {
     height: 1000px;
@@ -432,4 +320,134 @@ body {
     margin-bottom: 0px;
     margin-top: 0px;
   }
+}
+@media screen and (max-width: 750px) {
+  .Hero-section-p p {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 30px;
+  }
+  .Hero-section {
+    height: 1100px;
+  }
+  .Hero-section-imgs {
+    top: 1150px;
+  }
+  .trusted {
+    font-size: 14px;
+    top: 1180px;
+  }
+  .Section1 {
+    padding: 20px;
+    background-color: White;
+  }
+
+  .Section1a {
+    text-align: center;
+    padding: 32px;
+  }
+  .Section1a h1 {
+    font-size: 18px;
+  }
+  .Section1a p {
+    font-size: 16px;
+    width: fit-content;
+    max-width: 500px;
+  }
+  .Section1b {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .Section1b div {
+    flex-basis: calc(0); /* 33.33% minus any additional spacing */
+    margin-right: 0px; /* Additional spacing between items */
+    margin-bottom: 10px;
+  }
+  .Section2 {
+    padding: 30px 20px;
+    background-color: #fcfbfb;
+  }
+  .Section2b {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .card2 {
+    flex-basis: calc(0); /* 33.33% minus any additional spacing */
+    margin-right: 0px; /* Additional spacing between items */
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .card2 div:first-child {
+    height: 60%;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .card2a div:nth-child(1) {
+    background: linear-gradient(90deg, #00416a 0%, #e4e5e6 100%);
+  }
+  .card2b div:nth-child(1) {
+    background: linear-gradient(90deg, #649173 0%, #dbd5a4 100%);
+  }
+  .card2c div:nth-child(1) {
+    background: linear-gradient(90deg, #bbd2c5 0%, #536976 100%);
+  }
+  .card2 div:nth-child(1) img {
+    width: 220px;
+    height: 286px;
+  }
+  .card2 div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px;
+    gap: 17px;
+    z-index: 2;
+    height: 40%;
+    background: #ffffff;
+    border: 1px solid #f1f1f1;
+  }
+  .card2 div:nth-child(2) h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #242322;
+  }
+  .card2 div:nth-child(2) p {
+    width: 301px;
+    height: 63px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(36, 35, 34, 0.7);
+  }
+  .Section3 {
+    padding: 30px 20px;
+  }
+  .Section3 h1 {
+    font-size: 18px;
+  }
+  .listdiv {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .listdiv div {
+    flex-basis: calc(0); /* 33.33% minus any additional spacing */
+    margin-right: 0px; /* Additional spacing between items */
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 400px) {
 }
