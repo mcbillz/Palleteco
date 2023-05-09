@@ -299,13 +299,13 @@ body {
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
   }
   .card2 {
     flex-basis: calc(0); /* 33.33% minus any additional spacing */
     margin-right: 0px; /* Additional spacing between items */
-    margin-bottom: 7.5px;
-    margin-top: 7.5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
   .card2 div:first-child {
     height: 60%;
